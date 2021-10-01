@@ -1,4 +1,15 @@
 ---
 label: Blog post
 hide_body: true
-fields: []
+fields:
+- name: label
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Label
+  description: This is my content. This is my content.This is my content.This is my
+    content.This is my content.This is my content.This is my content.
